@@ -1,0 +1,12 @@
+type User @model {
+id: ID!
+firstname: String!
+lastname: String!
+age: String!
+hobbies: [Hobby]
+}
+
+type Hobby @model {
+id: ID!
+name: String!
+}
